@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Career Path Recommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>AI Career Path Recommender 💡</h2>
+
+<label>Your Skills (comma separated)</label>
+<input type="text" id="skills" placeholder="Python, SQL, HTML, ML">
+
+<label>Your Interest</label>
+<select id="interest">
+    <option value="">-- Select --</option>
+    <option>AI & Machine Learning</option>
+    <option>Web Development</option>
+    <option>Cyber Security</option>
+    <option>Cloud Computing</option>
+    <option>Mobile App Development</option>
+</select>
+
+<button onclick="recommendCareer()">Recommend Path ✅</button>
+
+<p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
